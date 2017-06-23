@@ -1,0 +1,85 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#header {
+    width: 94%;
+    padding: 3%;
+    background-color: #001f4d;
+}
+#header #title {
+    font-size: 50px;
+    color: #fff;
+}
+
+nav {
+    width: 97%;
+    background-color: #333399;
+    padding: 0 1.5% 0 1.5%;
+}
+nav ul li {
+    display: inline-block;
+    padding: 15px 1.5% 15px 1.5% ;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#footer {
+	clear:both;
+	float:left;
+	width:94%;
+    padding: 3%;
+    color: #fff;
+    background-color: #001f4d;
+}
+
+/* Start of Column CSS */
+#container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	background:#eee; /* column 2 background colour */
+}
+
+#container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+	background:#eee; /* column 1 background colour */
+}
+
+#col1 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:53%;
+	overflow:hidden;
+    padding: 15px 1.5% 15px 1.5% ;
+}
+
+#col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+    padding: 15px 1.5% 15px 1.5% ;
+}
