@@ -1,0 +1,110 @@
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Containers */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container {
+		width: 65em;
+	}
+
+
+/* Section/Article */
+
+	section.special, article.special {
+		text-align: center;
+	}
+
+
+	header.major h2 {
+		color: #19194d;
+		font-size: 3.5em;
+	}
+
+		header.major h2 + p {
+			color: #002699;
+			font-size: 1.75em;
+			font-weight: 700;
+			margin-top: -0.75em;
+		}
+
+
+/* Features */
+
+	.features article {
+		border-top: solid 3px #e6f2ff;
+		margin-bottom: 2.25em;
+		padding-top: 2.25em;
+	}
+
+		.features article:first-child {
+			border-top: 0;
+			padding-top: 1.5em;
+		}
+
+		.features article .image {
+			display: inline-block;
+			padding-right: 2.5em;
+			vertical-align: middle;
+			width: 40%;
+		}
+
+			.features article .image img {
+				display: block;
+				width: 80%;
+			}
+
+		.features article .inner {
+			display: inline-block;
+			vertical-align: middle;
+			width: 50%;
+		}
+
+			.features article .inner > :last-child {
+				margin-bottom: 0;
+			}
+
+
+/* Main */
+
+	#main > section {
+		border-top: solid 6px #99ccff;
+	}
+
+		#main > section > .container {
+			padding: 0em 0 1em 0;
+		}
+
+		#main > section:first-child {
+			border-top: 0;
+		}
+
+
+
+/* XLarge */
+
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+			}
+
+
+		/* Wrapper */
+
+			#wrapper {
+				padding-right: 12em;
+			}
+
+
